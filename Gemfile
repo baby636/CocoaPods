@@ -47,7 +47,7 @@ group :development do
   gem 'ruby-graphviz', '< 1.2.5'
 
   # Integration tests
-  gem 'diffy'
+  gem 'diffy', '>= 3.4.1'
   gem 'clintegracon'
 
   # Code Quality
