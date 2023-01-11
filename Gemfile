@@ -55,7 +55,7 @@ group :development do
   gem 'rubocop', '0.50.0'
   gem 'simplecov', '< 0.18'
 
-  gem 'danger', '~> 5.3'
+  gem 'danger', '~> 5.16', '>= 5.16.1'
 end
 
 group :debugging do
