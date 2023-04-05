@@ -33,7 +33,7 @@ group :development do
 
   gem 'cocoapods-dependencies', '~> 1.0.beta.1'
 
-  gem 'activesupport', '> 5', '< 6' # Pinned < 6 because 6 requires Ruby 2.5.0
+  gem 'activesupport', '~> 6.1', '>= 6.1.7.3' # Pinned < 6 because 6 requires Ruby 2.5.0
   gem 'bacon', :git => 'https://github.com/leahneukirchen/bacon.git'
   gem 'mocha', '< 1.5'
   gem 'mocha-on-bacon'
@@ -47,7 +47,7 @@ group :development do
   gem 'ruby-graphviz', '< 1.2.5'
 
   # Integration tests
-  gem 'diffy'
+  gem 'diffy', '>= 3.4.1'
   gem 'clintegracon'
 
   # Code Quality
@@ -55,7 +55,7 @@ group :development do
   gem 'rubocop', '0.50.0'
   gem 'simplecov', '< 0.18'
 
-  gem 'danger', '~> 5.3'
+  gem 'danger', '~> 6.0', '>= 6.0.0'
 end
 
 group :debugging do
