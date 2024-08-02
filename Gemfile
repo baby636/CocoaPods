@@ -40,7 +40,7 @@ group :development do
   gem 'netrc'
   gem 'prettybacon'
   gem 'typhoeus'
-  gem 'webmock'
+  gem 'webmock', '>= 3.11.2'
 
   gem 'bigdecimal', '~> 1.3.0'
   gem 'public_suffix'
